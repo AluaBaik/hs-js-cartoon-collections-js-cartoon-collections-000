@@ -3,7 +3,10 @@ function dwarfRollCall(dwarves) {
   var i=0
   while(i<dwarves.length)
   {
+
     numbered_dwarves=numbered_dwarves+(i+1)+". "+dwarves[i]
+
+   
   //  if (i==!dwarves.length-1)
     //{
       numbered_dwarves=numbered_dwarves+" "
