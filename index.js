@@ -80,17 +80,10 @@ function wordsWithB(words){
   return arrayB
 }
 function wordsWithB(words){
-  var arrayB=[]
-  var i=0
-  var i2=0
-  while (i<words.length-1){
+return words.filter(function (element){ 
+  return
+})
     if ((words[i].startsWith("b")===true)||(words[i].startsWith("B")===true)){
-      arrayB[i2]=words[i]
-      i2++
-    }
-    i++
-  }
-  return arrayB
+     
 }
 
-if ((words[i].startsWith("b")===true)||(words[i].startsWith("B")===true)){
