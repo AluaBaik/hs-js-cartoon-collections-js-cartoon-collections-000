@@ -1,6 +1,6 @@
 function dwarfRollCall(dwarves) {
   var numbered_dwarves=""
-  var i=0
+  var i=div(dwarves.length/2)
   while(i<dwarves.length)
   {
 
@@ -46,7 +46,7 @@ function longPlaneteerCalls(words) {
 function findTheCheese (foods) {
   var i=0
   var t=false
-  var cheese=["gouda","cheddar"]
+  var cheese=["gouda","cheddar","swiss"]
   while((t===false)&&(i<foods.length))
   {
     if (cheese.indexOf(foods[i])>-1)
@@ -64,3 +64,33 @@ function findTheCheese (foods) {
     return "no cheese!"
   }
 }
+
+
+function wordsWithB(words){
+  var arrayB=[]
+  var i=0
+  var i2=0
+  while (i<words.length-1){
+    if ((words[i].startsWith("b")===true)||(words[i].startsWith("B")===true)){
+      arrayB[i2]=words[i]
+      i2++
+    }
+    i++
+  }
+  return arrayB
+}
+function wordsWithB(words){
+  var arrayB=[]
+  var i=0
+  var i2=0
+  while (i<words.length-1){
+    if ((words[i].startsWith("b")===true)||(words[i].startsWith("B")===true)){
+      arrayB[i2]=words[i]
+      i2++
+    }
+    i++
+  }
+  return arrayB
+}
+
+if ((words[i].startsWith("b")===true)||(words[i].startsWith("B")===true)){
