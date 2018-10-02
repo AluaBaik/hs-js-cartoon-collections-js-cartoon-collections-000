@@ -81,9 +81,9 @@ function wordsWithB(words){
 }
 function wordsWithB(words){
 return words.filter(function (element){ 
-  return
+  return words[i].startsWith("b")
 })
-    if ((words[i].startsWith("b")===true)||(words[i].startsWith("B")===true)){
+    
      
 }
 
